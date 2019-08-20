@@ -1,3 +1,60 @@
-.result{
+body {
+  min-height: 1400px;
+  background: rgb(253, 187, 45);
+  background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(45, 177, 253, 1) 70%, rgba(45, 177, 253, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:
+}
+
+.result {
   display: none;
+}
+
+.choices {
+  display: block;
+  width: 33%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+
+#greeting {
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 2%;
+  margin-left: -20%;
+  margin-right: -20%;
+  background: rgb(238, 232, 116);
+  background: linear-gradient(90deg, rgba(238, 232, 116, 1) 0%, rgba(255, 253, 219, 1) 56%, rgba(238, 232, 116, 1) 100%);
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#burgerOrder {
+  background-color: rgba(79, 104, 117, 0.2);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  display: block;
+  float: left;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#intro {
+  text-align: center;
+  padding: 1%;
+}
+h3 {
+  text-align: center;
 }
